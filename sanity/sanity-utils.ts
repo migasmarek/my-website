@@ -1,9 +1,9 @@
 // this file is for reading data from the studio
 
-import { Project } from "@/types/project";
+import { Project } from "@/types/Project";
 import { createClient, groq } from "next-sanity";
 import clientConfig from "./config/client-config";
-import { Page } from "@/types/page";
+import { Page } from "@/types/Page";
 
 export async function getProjects(): Promise<Project[]> {
 
